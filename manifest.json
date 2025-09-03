@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "URL Shortcuts",
+  "version": "1.0",
+  "description": "Handy shortcuts for your long urls",
+  "permissions": ["storage"],
+  "omnibox": { "keyword": "s" },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "worker.js"
+  }
+}
